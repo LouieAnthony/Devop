@@ -58,6 +58,7 @@ event manager applet gawaloop
  action 3.3  cli command "ip address $i.$i.$i.$i 255.255.255.255"
  action 3.4  increment i 1
  action 3.5 end
+
  action 4.0 cli command "end"
  end
 
@@ -78,6 +79,7 @@ event manager applet siraloop
  action 3.2  cli command "no interface Loopback $i"
  action 3.4  increment i 1
  action 3.5 end
+ action 3.6 cli commaned
  action 4.0 cli command "end"
  end
 
